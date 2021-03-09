@@ -3,23 +3,24 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="jumbotron text-center">
-        <h1>My First Bootstrap Page</h1>
-        <p>Resize this responsive page to see the effect!</p>
+        <h1>Pet Meds System</h1>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <h3>Column 1</h3>
-                <p>Lorem ipsum dolor..</p>
+                <h3>Orders</h3>
+                <a href="PageOne.aspx">Link</a>
+                            
+                            
             </div>
             <div class="col-sm-4">
-                <h3>Column 2</h3>
-                <p>Lorem ipsum dolor..</p>
+                <h3>Prescriptions</h3>
+                <a href="PageTwo.aspx">Link</a>
             </div>
             <div class="col-sm-4">
-                <h3>Column 3</h3>
-                <p>Lorem ipsum dolor..</p>
+                <h3>Records</h3>
+                <a href="PageThree.aspx">Link</a>
             </div>
         </div>
     </div>
